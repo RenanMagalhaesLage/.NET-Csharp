@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudos", "Estudos\Estudos.csproj", "{AEA9A122-0611-4A46-96BD-C6855CEA80D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desafio Estacionamento", "Desafio Estacionamento", "{954C9A16-54BD-4825-87F6-BCF513848109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "trilha-net-fundamentos-desafio", "trilha-net-fundamentos-desafio", "{36BDB18C-147F-4473-B115-D94355085FC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioFundamentos", "Desafio Estacionamento\trilha-net-fundamentos-desafio\DesafioFundamentos\DesafioFundamentos.csproj", "{DA536162-894F-4F10-A1E0-53E83787BA63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA9A122-0611-4A46-96BD-C6855CEA80D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA9A122-0611-4A46-96BD-C6855CEA80D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA9A122-0611-4A46-96BD-C6855CEA80D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA9A122-0611-4A46-96BD-C6855CEA80D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA536162-894F-4F10-A1E0-53E83787BA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA536162-894F-4F10-A1E0-53E83787BA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA536162-894F-4F10-A1E0-53E83787BA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA536162-894F-4F10-A1E0-53E83787BA63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36BDB18C-147F-4473-B115-D94355085FC3} = {954C9A16-54BD-4825-87F6-BCF513848109}
+		{DA536162-894F-4F10-A1E0-53E83787BA63} = {36BDB18C-147F-4473-B115-D94355085FC3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A39483B2-56A9-4D8A-9482-44C87E9A100C}
+	EndGlobalSection
+EndGlobal

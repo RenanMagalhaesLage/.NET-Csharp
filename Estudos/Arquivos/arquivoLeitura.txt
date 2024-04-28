@@ -1,0 +1,6 @@
+Linha 1 do arquivo de leitura
+Linha 2 blah blah blah
+Linha 3 ==============
+Linha 4 :)
+Linha 5 :D
+Linha 6 ==============

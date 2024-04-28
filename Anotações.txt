@@ -1,0 +1,40 @@
+Começar um novo projeto --> dotnet new console
+Executar projeto --> dotnet run
+
+Convenções:
+-Classes começam com letra maiúscula --> PascalCase
+-Propriedades começam com letra maiúscula --> PascalCase
+-Método começam com letra maiúscula --> PascalCase
+-Variável começa com minúscula --> camelCase
+
+Tipos de dados:
+Decimal --> valores monetários
+
+Atalhos:
+Digitar prop e apertar tab vai criar uma propriedade(atributo) de uma classe automaticamente
+
+Site para minimizar json --> Code Beautify
+Pacotes em C# --> NuGet
+
+Comando para criar API --> dotnet new webapi
+Para executar API --> dotnet watch run
+
+Ferramenta que só precisa instalar UMA VEZ --> dotnet tool install --global dotnet-ef
+Ferramenta que precisa ser instalado em TODO PROJETO -->{
+    --> dotnet add package Microsoft.EntityFrameworkCore.Design
+    -->dotnet add package MySql.Data.EntityFrameworkCore
+    -->dotnet add package Microsoft.AspNetCore.OpenApi
+    -->dotnet add package Pomelo.EntityFrameworkCore.MySql
+}
+
+Migration (criação da tabela) --> dotnet-ef migrations add CriacaoTabelaContato
+                              --> dotnet-ef database update
+                              Migration é necessário toda vez que criar um database
+                              
+Vídeo de auxilio em .dotnet usando mysql --> https://www.youtube.com/watch?v=SdtOGowW-Dk&ab_channel=RiponDatta
+
+Testes Unitários --> dotnet new xunit
+                    dotnet test
+
+Solution --> dotnet new sln -n NomeDaSolucao
+            dotnet sln NomeDaSolucao add MeuProjeto/MeuProjeto.csproj
